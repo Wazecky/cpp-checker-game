@@ -3,7 +3,7 @@
 
 const int SIZE = 8;
 
-// Function to display the checkerboard
+// Function to display the board
 void displayBoard(char board[SIZE][SIZE]) {
     std::cout << "   ";
     for (int i = 0; i < SIZE; ++i) {
